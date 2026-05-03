@@ -1,0 +1,21 @@
+{
+  "name": "EMILIA-CHAN",
+  "description": "EMILIA WhatsApp bot made by RIZK",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot","EMILIA-CHAN","RIK"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the EMILIA session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
